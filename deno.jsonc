@@ -1,5 +1,8 @@
 {
   "lock": false,
+  "imports": {
+    "npm:": "https://esm.sh/"
+  },
   "tasks": {
     "test": "deno test --no-lock --unstable -A --parallel --shuffle",
     "check": "deno check --no-lock --unstable $(find . -name '*.ts')",
